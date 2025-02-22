@@ -1,0 +1,20 @@
+line-length = 120
+indent-width = 4
+
+target-version = "py313"
+
+[lint]
+select = ["E", "W", "F", "T", "ANN", "FAST", "I", "N", "ASYNC", "C4", "PIE", "T20", "PT", "SLF", "SIM", "PL", "FURB", "B"]
+ignore = []
+
+fixable = ["ALL"]
+unfixable = []
+
+[format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "lf"
+
+docstring-code-format = true
+docstring-code-line-length = "dynamic"
