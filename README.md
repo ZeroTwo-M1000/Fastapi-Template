@@ -1,4 +1,3 @@
-```markdown
 # 🚀 FastAPI Project Template
 
 This project is a template for developing FastAPI applications using modern tools to enhance code quality and streamline development. The project includes the following tools:
